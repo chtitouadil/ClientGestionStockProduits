@@ -1,0 +1,14 @@
+<h3>table de Produit</h3>
+
+<table border="10" style="width:100%">
+  <tr>
+    <th>Référence</th>
+    <th>Quantité</th>
+    <th>prix Unitaire</th>
+  </tr>
+  <tr *ngFor="let produit of produits">
+    <th>{{produit.ref}}</th>
+    <th>{{produit.quantite}}</th>
+    <th>{{produit.prixUnitaire}}</th>
+  </tr>
+</table>
